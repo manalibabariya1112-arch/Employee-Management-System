@@ -28,43 +28,34 @@ This repository contains Java programming practice programs and a practical Empl
 A Java-based application designed to manage employee information efficiently.
 
 **Features:**
-- Admin login and logout
 - Add new employee records
 - View employee details
-- Update employee information
-- Delete employee records
-- Search employees
-- Generate salary reports
-- Store employee data using MySQL
+- Delete employee detils
+- Store employee data using csv file
 
 ## Technologies Used
 
 - **Programming Language:** Java
-- **Database:** MySQL
 - **Frontend:** HTML, CSS, JavaScript
 - **IDE:** IntelliJ IDEA
-- **Database Tool:** MySQL Workbench
+
 
 ## Learning Objectives
 
 - Understand core Java programming concepts.
 - Develop skills in exception and file handling.
 - Learn the fundamentals of multithreading.
-- Connect a Java application to a MySQL database.
 - Build a practical employee management application.
 
 ## How to Run
 
-1. Install JDK and MySQL.
+1. Install JDK.
 2. Open the project in IntelliJ IDEA or your preferred Java IDE.
-3. Configure your MySQL database credentials.
-4. Execute the provided SQL script to create the database.
-5. Add the required JDBC and Gson JAR libraries.
-6. Compile and run the Java application.
-7. Open the application in your browser as described in the project instructions.
+3. Compile and run the Java application.
+4. Open the application in your browser as described in the project instructions.
 
 ## Conclusion
 
 This repository demonstrates my learning and practical implementation of Java programming concepts through hands-on exercises and an Employee Management System project.
 
-**Skills:** Core Java | Exception Handling | File Handling | Multithreading | MySQL | JDBC | HTML | CSS | JavaScript
+**Skills:** Core Java | Exception Handling | File Handling | Multithreading  | HTML | CSS | JavaScript
