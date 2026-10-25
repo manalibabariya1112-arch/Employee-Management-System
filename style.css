@@ -1,0 +1,92 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f5f9;
+    margin: 0;
+    padding: 25px;
+}
+
+.container {
+    max-width: 950px;
+    margin: auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #234a75;
+}
+
+h2 {
+    color: #234a75;
+    margin-top: 30px;
+}
+
+.message {
+    background-color: #e8f5e9;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1 1 180px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 12px 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2474c6;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #175799;
+}
+
+.delete-button {
+    background-color: #d93636;
+}
+
+.delete-button:hover {
+    background-color: #a92020;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #234a75;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f5f9;
+}
